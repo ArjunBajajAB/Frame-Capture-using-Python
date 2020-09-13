@@ -9,9 +9,11 @@ Python Library: Opencv
 
 OpenCV download:  pip3 install opencv-python or pip install opencv-python
 
-## Design
+## Design and Prerequistes
 
-The project is written in python file.
+* The project is written in python file.
+* Create a folder named *img* in the same directory where the .py file is present
+
 
 ## Procedure:
 

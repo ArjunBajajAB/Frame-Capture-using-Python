@@ -13,15 +13,16 @@ try:
     cap.set(3, 1920/2)
     cap.set(4, 1000/2)
     x=1
-    for x in range(0,30): #Loop for capturing frames for 30 seconds
+    while(True): #Loop for capturing frames until user presses escape key
         print("Getting the image")
         ret, image =cap.read() #reading from the live webcam
         name='img/Execution-{}.jpg'.format(x) #Naming each frame image
         cv2.imwrite(name,image)
+        x+=1
         time.sleep(0.1) #halting the loop for 0.1 seconds
         cv2.imshow("Window Capture", image) #Displaying the frames on the screen
         k=cv2.waitKey(30) & 0xff
-        if k==27: #If user presses escape key before 30 seconds the loop will stop
+        if k==27: #If user presses escape key the loop will stop
             break
     cap.release()
     cv2.destroyAllWindows()
