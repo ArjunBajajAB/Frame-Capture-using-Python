@@ -1,5 +1,5 @@
 Frame capture
-#first edition
+# first edition
 Overview
 
 Given a set up webcam, the program can open the camera, capture the frames and store the frames as jpg file in a folder.
@@ -32,14 +32,14 @@ Procedure:
 
 
 
-Important file
+### Important file
 
 framecapture.py
 
-Report
+### Report
 
 The first edition is doing OK when the light is sufficient and people are at a normal distance from the camera.
 
-Need Update
+### Need Update
 
 The project is only the first edition. I will keep update.
