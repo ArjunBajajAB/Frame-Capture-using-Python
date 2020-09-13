@@ -1,19 +1,19 @@
 Frame capture
 # First edition
-Overview
+## Overview
 
 Given a set up webcam, the program can open the camera, capture the frames and store the frames as jpg file in a folder.
 
-Open Source Model
+## Open Source Model
 Python Library: Opencv 
 
 OpenCV download:  pip3 install opencv-python or pip install opencv-python
 
-Design
+## Design
 
 The project is written in python file.
 
-Procedure:
+## Procedure:
 
             1.Use cv2.VideoCapture()to get a video capture object for the camera. 
 
