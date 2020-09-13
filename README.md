@@ -1,5 +1,5 @@
 Frame capture
-# first edition
+# First edition
 Overview
 
 Given a set up webcam, the program can open the camera, capture the frames and store the frames as jpg file in a folder.
