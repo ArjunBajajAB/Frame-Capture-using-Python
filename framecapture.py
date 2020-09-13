@@ -18,7 +18,7 @@ try:
         ret, image =cap.read() #reading from the live webcam
         name='img/Execution-{}.jpg'.format(x) #Naming each frame image
         cv2.imwrite(name,image)
-        time.sleep(1) #halting the loop for 1.0 seconds
+        time.sleep(0.1) #halting the loop for 0.1 seconds
         cv2.imshow("Window Capture", image) #Displaying the frames on the screen
         k=cv2.waitKey(30) & 0xff
         if k==27: #If user presses escape key before 30 seconds the loop will stop
